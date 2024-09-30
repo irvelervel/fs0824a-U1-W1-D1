@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- informa il browser su quale sia il set di caratteri corretto da caricare -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAGINA DUE</title>
+  </head>
+  <body>
+    <!-- normalmente un tag body contiene 3 figli: -->
+    <!-- un tag header -->
+    <!-- un tag main -->
+    <!-- un tag footer -->
+    <header>
+      <!-- qui dentro ci vanno altri tag relativi alla sezione di INTESTAZIONE -->
+      <!-- barre di navigazione, titolo principale, immagine principale etc. -->
+      <h1>Spieghiamo i più famosi tag HTML</h1>
+      <h2>CIAO</h2>
+    </header>
+    <main>
+      <!-- nel main vanno a finire TUTTI i contenuti della sezione "centrale" della pagina -->
+      <p>Ciao, io mi chiamo <strong>Stefano</strong>!</p>
+      <p>Sono il vostro insegnante in EPICODE</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus cum,
+        voluptatibus culpa adipisci impedit quae praesentium quam dolorum
+        deserunt ex. Minima beatae temporibus quibusdam laudantium ex tenetur
+        cumque voluptate est!
+      </p>
+
+      <!-- <hr /> è un tag che incorpora in un elemento solo sia l'apertura che la chiusura -->
+      <hr />
+
+      <div>
+        <!-- un <div> è un divisore di contenuto, è una "scatola" in cui dentro
+          metterete altri elementi -->
+        <!-- è un elemento di BLOCCO, manderà sempre a capo l'elemento successivo -->
+        <h4>Migliori cantanti di tutti i tempi</h4>
+        <ol>
+          <!-- questa è una LISTA ORDINATA -->
+          <li>Gino Paoli</li>
+          <li>Eminem</li>
+          <li>Cristina d'Avena</li>
+          <li>
+            <ul>
+              <li>Uno</li>
+              <li>Due</li>
+            </ul>
+          </li>
+        </ol>
+        <h4>Spesa settimanale</h4>
+        <ul>
+          <li>Pane</li>
+          <li>Burro</li>
+          <li>Croccantini</li>
+        </ul>
+      </div>
+      <div>
+        <!-- utilizziamo dei caratteri speciali -->
+        <p>In HTML il tag paragrafo si scrive così: &lt;p&gt;</p>
+      </div>
+      <div>
+        <img
+          src="https://www.rainforest-alliance.org/wp-content/uploads/2021/06/capybara-square-1.jpg.optimal.jpg"
+          width="300px"
+          alt="first capybara"
+        />
+        <!-- alt serve a fornire una DESCRIZIONE dell'immagine -->
+      </div>
+      <div>
+        <img src="./capybara.jpg" width="400px" />
+      </div>
+    </main>
+    <footer>
+      <!-- qui ci vanno le parti conclusive della pagina -->
+      <!-- link per tornare in alto o per altre sezioni, copyright, p.iva, anno corrente -->
+      <!-- mettiamo qui un link per tornare in homepage -->
+      <a href="./index.html">
+        <h3>TORNA IN HOMEPAGE</h3>
+      </a>
+    </footer>
+  </body>
+</html>
